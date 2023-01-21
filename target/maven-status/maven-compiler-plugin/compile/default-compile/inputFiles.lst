@@ -1,0 +1,15 @@
+/home/alvaro/Guambo/test_workspace/initial-spring-rest-crud-jpa/src/main/java/com/example/testjpa/model/entity/Company.java
+/home/alvaro/Guambo/test_workspace/initial-spring-rest-crud-jpa/src/main/java/com/example/testjpa/dto/PersonDTO.java
+/home/alvaro/Guambo/test_workspace/initial-spring-rest-crud-jpa/src/main/java/com/example/testjpa/model/entity/mapper/CompanyMapper.java
+/home/alvaro/Guambo/test_workspace/initial-spring-rest-crud-jpa/src/main/java/com/example/testjpa/dto/JobDTO.java
+/home/alvaro/Guambo/test_workspace/initial-spring-rest-crud-jpa/src/main/java/com/example/testjpa/TestjpaApplication.java
+/home/alvaro/Guambo/test_workspace/initial-spring-rest-crud-jpa/src/main/java/com/example/testjpa/model/repository/CompanyRepository.java
+/home/alvaro/Guambo/test_workspace/initial-spring-rest-crud-jpa/src/main/java/com/example/testjpa/model/entity/mapper/JobMapper.java
+/home/alvaro/Guambo/test_workspace/initial-spring-rest-crud-jpa/src/main/java/com/example/testjpa/model/repository/JobRepository.java
+/home/alvaro/Guambo/test_workspace/initial-spring-rest-crud-jpa/src/main/java/com/example/testjpa/service/PersonService.java
+/home/alvaro/Guambo/test_workspace/initial-spring-rest-crud-jpa/src/main/java/com/example/testjpa/controller/PersonController.java
+/home/alvaro/Guambo/test_workspace/initial-spring-rest-crud-jpa/src/main/java/com/example/testjpa/model/entity/mapper/PersonMapper.java
+/home/alvaro/Guambo/test_workspace/initial-spring-rest-crud-jpa/src/main/java/com/example/testjpa/dto/CompanyDTO.java
+/home/alvaro/Guambo/test_workspace/initial-spring-rest-crud-jpa/src/main/java/com/example/testjpa/model/repository/PersonRepository.java
+/home/alvaro/Guambo/test_workspace/initial-spring-rest-crud-jpa/src/main/java/com/example/testjpa/model/entity/Job.java
+/home/alvaro/Guambo/test_workspace/initial-spring-rest-crud-jpa/src/main/java/com/example/testjpa/model/entity/Person.java

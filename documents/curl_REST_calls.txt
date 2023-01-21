@@ -1,0 +1,50 @@
+## Get a person
+Command: 
+	$ curl "http://localhost:8081/person/1"
+
+Response: (Code: 200)
+Body: {"id":1,"fullname":"José Rivas","phoneNumber":"04241342343","address":"Calle 10, El Cafetal, Caracas","jobs":[{"id":1,"roleTitle":"Especialista 2","roleDescription":"Especialista en sistemas TI, SAP y Oracle","startedAt":"2008-07-23T04:00:00.000+00:00","finishedAt":"2010-01-15T03:00:00.000+00:00","company":{"id":1,"name":"Alphabet","siteUrl":"https://www.google.com"}},{"id":2,"roleTitle":"Gerente Júnior","roleDescription":"Gerente Júnior de TI","startedAt":"2010-01-20T03:00:00.000+00:00","finishedAt":"2014-05-05T04:00:00.000+00:00","company":{"id":1,"name":"Alphabet","siteUrl":"https://www.google.com"}},{"id":3,"roleTitle":"Gerente","roleDescription":"Gerente de Sistemas TI","startedAt":"2014-06-13T04:00:00.000+00:00","finishedAt":"2018-01-25T03:00:00.000+00:00","company":{"id":2,"name":"Telefónica","siteUrl":"https://www.telefonica.com"}}]}
+
+======================
+
+## Create a person
+Command:
+	$ curl -H 'Content-Type: application/json' -d '{"fullname":"Marcos Torres","email":"matorres@hotmail.com","phoneNumber":"14123454377","address":"Calle Piar #127, El Espinal, Nueva Esparta"}' "http://localhost:8081/person/"
+
+Response: (Code: 200)
+Body: <empty>
+
+======================
+
+## Update a person
+Command:
+	$ curl -X PUT -H 'Content-Type: application/json' -d '{"id":4,"phoneNumber":"04123454375"}' "http://localhost:8081/person/"
+
+Response: (Code: 200)
+Body: <empty>
+
+======================
+
+## Delete a person
+Command:
+	$ curl -X DELETE -H 'Content-Type: application/json' "http://localhost:8081/person/5"
+
+Response: (Code: 200)
+Body: <empty>
+
+======================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

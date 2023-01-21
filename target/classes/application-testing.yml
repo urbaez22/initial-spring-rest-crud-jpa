@@ -1,0 +1,26 @@
+spring:
+  activate.on-profile: default
+  datasource:
+    tomcat:
+      initial-size: 2
+      max-idle: 2
+      max-active: 4
+      default-auto-commit: true
+    driverClassName: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/staffing_core
+    username: newappuser
+    password: NewUser123
+  flyway:
+    enable: false
+server.port: 8081
+management:
+  port: 8091
+  address: 127.0.0.1
+logging:
+  level:
+    root: DEBUG
+  org:
+    springframework:
+      web: INFO
+      security: INFO
+    hibernate: INFO
